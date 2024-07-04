@@ -15,17 +15,17 @@ How to create a virtualization environment to replicate an active directory envi
 
 Setup involves the following steps:
 
-Setup of Windows Server on Virtual Box
-Creating Domain and Setting up IP Address
-Setup of Windows 10 Virtual Machine
-Connecting Windows 10 to the Domain
+-Setup of Windows Server on Virtual Box
+-Creating Domain and Setting up IP Address
+-Setup of Windows 10 Virtual Machine
+-Connecting Windows 10 to the Domain
 
 
 # 2. Reference Images
 
-Reference images are included in instructions.
-They can be accessed from Active Directory Images Folder
-References will be written in parenthesis - (Ref. xxxxxxx.jpg)
+-Reference images are included in instructions.
+-They can be accessed from Active Directory Images Folder
+-References will be written in parenthesis - (Ref. xxxxxxx.jpg)
 
 	
 ## Useful Links
