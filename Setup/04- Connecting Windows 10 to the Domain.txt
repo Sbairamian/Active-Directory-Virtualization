@@ -1,0 +1,30 @@
+Connecting Windows 10 to the Domain
+
+1. Changing IP address settings
+
+- Now it's time to see up a static IP for the Windows 10 VM.
+- Click on Control Panel --> Network Setting --> Change Network Adapter Settings.  
+- There will be an ethernet icon.  Right click on it and click on "Properties".  
+- Click on "IPv4 settings".  
+- Click on “Use the following IP address” and input these IP’s. Quick note: Whatever ip address can be used.  As long as it is on the same network as the Windows Server VM.
+
+
+IP address: 192.168.0.3
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.0.1
+
+Preferred DNS server: 192.168.0.2
+Alternate DNS server: 192.168.0.1
+
+- Click "Ok" and exit out of the ethernet properties menu.
+- Next go to "Devices" at the top and click on "Network Settings"
+- Change the drop down menu from "NAT" to "Host-Only Adapter". This will allow the two virtual machines to be on the same domain.
+
+2. Connecting to the Domain
+
+- Now it is time to connect to the Domain.  For this to work, the Windows Server VM must be on at the same time.
+- Go to "About your PC". Click on "Advanced PC settings". 
+- Go to the Computer Name tab and choose “Change”.  
+- Choose "Domain" and put in the name of domain that was created when a new forest was created. Example: mydomain.com
+- It will ask for the admin account of your SERVER account.  Put that in and let it connect.
+- When it connects, it now connected to the domain. The server and the Windows 10 VM are both connected on the same domain!

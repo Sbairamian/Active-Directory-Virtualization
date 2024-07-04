@@ -1,0 +1,29 @@
+Setup of Windows 10 Virtual Machine and Setting up IP address 
+
+1. Creation of Windows 10 Virtual Machine on Virtual Box
+
+- It is time to now create the second virtual machine. On Virtual Box, click on "New".
+- Name the machine and insert the iso image that was downloaded for Windows 10.
+- Complete the setup by choosing the same amount of memory, CPU usage, and storage that was allocated for the Windows Server Virtual Machine. 
+
+2. Installation and Setup of Windows 10 Virtual Machine
+
+- Now click start and Windows 10 installation will occur.
+- Click "Start", and when it asks for a product key, click on “Will put in product key later”.
+- Click "Next", and for Operating system, choose "Windows 10 Pro". (Ref. Windows10pro.jpg)  
+- Keep continuing through the installation. Makes sure to choose a custom install. 
+- It will start to install. 
+- After it is done, it will start the setup. For use, click on "Personal Use". 
+- Choose the name and password.
+- Click “Create An Offline Account” and install with limited experience and minimal features. 
+- Let windows 10 finish installing and log in to windows 10.
+
+3. Change PC Name 
+
+- When it starts up, it is time to change the name of the PC.
+- Go to the search icon next to the windows bar and search "About this PC".
+- Click on the "About this PC" tab. Once there, click on "Rename your PC" and rename PC.
+- Try to use a simple name. An example is SBAIRAMIAN-PC.
+- It will ask to restart and click restart.
+- Let it restart and then sign in again.
+

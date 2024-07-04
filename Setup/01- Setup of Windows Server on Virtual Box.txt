@@ -1,0 +1,45 @@
+Setup of Windows Server on Virtual Box
+																
+1. Download Virtual Box.
+
+- Download Virtual Box and make sure to download extensions as well. 
+- Download Windows 10 .iso (Make sure to install it somewhere easy to find)
+- For installation options, make sure to click on making it an .iso image. (Ref. windows_iso_download.jpg)
+- Download Windows Server .iso. Before downloading the iso file, they will ask to fill out some information.
+- There is no need to provide actual information. Download the correct Windows Server edition.
+
+2. Install Windows Server .iso on Virtual Box
+
+- Click on "New" at the top.
+- Under name, give it a name. Example: Server 2019 lab
+- Under installation, click insert and find the iso and click it there.
+- Make sure to click the checkbox for "skip unattended installation".
+- Click next. It will ask for RAM and CPU usage. Anything above 2 GB RAM and 1 CPU works, but the more memory and CPU is used, the faster it will go.
+- Click next and then it will ask for the amount of storage.  The default is 50 GB. It can also be put around 25-30 GB of storage.
+- Click next, and virtual machine is set up.
+
+3. Setup of Windows Server on Virtual Box
+
+- Click on your virtual machine that was just created and press start.
+- It will start the Windows Server setup.  Keep clicking next until it gives options on the version to install.
+- Choose Standard Evaluation- graphical user interface option. (Ref. Standard_Evaluation_Pic.jpg)
+- Click next and choose custom install  Click next and let the installation begin.
+- After it is done, it will ask for a password. Write a simple password that will be easily remembered (since this is a lab).
+- After that, tt will finish up setting Windows Server on the Virtual Machine.
+
+4. Inserting Guest Additions  Renaming PC
+													
+- To login to admin account, click on input --> keyboard -->  Insert Ctrl-Alt-Del(Ref. Server_2019_Start_up_page.jpg).
+- Login into Admin Windows Server account. 
+- On the top there is a tab called "devices".  Click on it and it will say "insert guest additions image" (Ref. Devices.jpg)
+- Go to file explorer and click on the CD Drive (D:) Virtual Box Additions.  
+- Click on the "VBoxWindowsAdditions-amd64" to set up.  This will improve your user experience while using Windows Server. (Ref. CD_drive_insert_guest_additions.jpg)
+- It will install.  Now it will ask to restart. Click reboot later.
+
+5. Renaming PC
+
+- Go to the search icon next to the windows bar and search "About this PC".
+- Click on the "About this PC" tab. Once there, click on "Rename your PC" and rename the PC.
+- Try to use a simple name. An example is ServerDC1.
+- It will ask to restart and click restart.
+- Let it restart and then sign in again.

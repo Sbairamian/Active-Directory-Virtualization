@@ -1,0 +1,39 @@
+Creating Domain and Setting up IP Address
+																	
+1. Installing Active Directory Domain Services
+
+- Log in to Windows Server Environment.
+- On Server Manager. Click Manage --> Add/Remove Features (Ref. Add_Roles_and_Features.jpg)
+- Click next until it shows different feature choices.
+- Click on "Active directory Domain Servers".
+- Click on "Add Features". 
+- Then click next, until it asks to install. Then install the features.
+- After it is done, click "Close".
+
+2. Create New Domain 
+
+- There will be a yellow triangle with an exclamation mark in the notifications area. (Ref. Add_Domain.jpg)
+- Click on it, and then click on “Promote this server to a domain controller”.
+- Under “Select the Deployment Operation”, choose “Add a New Forest”
+- This is where the domain will be created. Enter a new domain name.  An example is mydomain.com
+- Click next. Under password, put a password (suggested simple password)
+- Click next until it gets to the pre-requisites check.  Then click install.
+- When it’s done, it will restart the system.
+
+3. Setting Up IP Address
+
+- Now it's time to see up a static IP.  Click on Control Panel --> Network Setting --> Change Network Adapter Settings.  
+- There will be an ethernet icon.  Right click on it and click on "properties".  
+- Click on "IPv4 settings".
+- Click on “Use the following IP address” and input these IP’s.  
+
+IP address: 192.168.0.2
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.0.1
+
+Preferred DNS server: 192.168.0.2
+Alternate DNS server: 192.168.0.1
+
+- Click ok and exit out of the ethernet properties menu.
+- Next go to "Devices" at the top and click on "Network Settings"(Ref. Network_Settings.jpg)
+- Change the drop down menu from "NAT" to "Host-Only Adapter".
