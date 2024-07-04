@@ -1,0 +1,18 @@
+Creating User Accounts and Logging in as New User
+
+1. Create first organization unit 
+
+- Log in to Windows Server VM. From the Start menu, go to Active Directory Users and Computers.
+- Right click under the Domain that was created.
+- Go to New Organizational Unit. (Look at Add_OU.jpg)
+- This will be the folder for users, so name it. An example can be “MyDomain Users”.
+
+2. Create New User 
+
+- Next, click on "Create New User". (Look at Add_New_User.jpg). 
+- Create user.  For username, try to stick to a structure.  An example LetterFirstName.lastname (example John Smith would be J.Smith)
+- Click next and set a password.  For lab purposes, set it such that it never expires. (Look at Creating_Password.jpg)
+- Click "Finish" and the user has been created!
+- Feel free to create any other users. 
+- Now Log on to Windows 10 VM.
+- At the bottom left, click on "Other".  Sign in with the username and password that was created for your users.
